@@ -1,0 +1,329 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.slogan{
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.background-img {
+    position: relative;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-img-section {
+    position: relative;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 50vh;
+}
+
+.overlay-text-right {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0 ,0, 0.1);
+    width: 450px;
+}
+
+.overlay-text-left {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    /*border: 2px solid white;*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0 ,0, 0.1);
+    width: 300px;
+    font-size: 16px;
+}
+
+.overlay-text-center {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    /*border: 2px solid white;*/
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0 ,0, 0.1);
+    width: 300px;
+    font-size: 16px;
+}
+
+.container {
+    background-color: #f9f9f9;
+    font-size: 18px;
+    display: block;
+}
+
+.container .column {
+    flex: 1;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: justify;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-card {
+    padding: 2px 16px;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: #333;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.centered-text {
+    text-align: center;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.img-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+span {
+    text-align: justify;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .overlay-text {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+    }
+
+    .navbar li a {
+        padding: 15px 10px;
+    }
+
+    .form-control {
+        padding: 8px;
+    }
+
+    .submit-btn {
+        padding: 8px 15px;
+    }
+}
+
+.small-circle-image {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: 100px; /* Asegúrate de que el ancho y el alto sean iguales para que la imagen sea circular */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para dar un efecto de profundidad */
+    border: 2px solid #000; /* Añade un borde para resaltar la imagen */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente si no es cuadrada */
+}
+
+.about-us {
+    padding: 20px; /* Espacio interior alrededor del contenido */
+    background-color: #f9f9f9; /* Fondo claro para destacar el texto */
+    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    margin: 20px 0; /* Espacio exterior alrededor del contenedor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto de animación */
+}
+
+.about-us:hover {
+    transform: translateY(-10px); /* Efecto de desplazamiento hacia arriba */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.about-us h1 {
+    color: #333; /* Color del texto del encabezado */
+    text-align: center; /* Centrar el texto del encabezado */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+.about-us p {
+    color: #666; /* Color del texto del párrafo */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    text-align: justify; /* Justificar el texto para un borde recto a ambos lados */
+}
+
+.barberia-valores {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.barberia-valores li {
+    margin: 20px 0; /* Espacio entre cada valor */
+    padding: 10px;
+    border: 1px solid #ddd; /* Borde ligero para separar cada valor */
+    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    background-color: #f9f9f9; /* Fondo claro para resaltar el texto */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto de animación */
+}
+
+.barberia-valores li:hover {
+    transform: translateY(-10px); /* Efecto de desplazamiento hacia arriba */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.barberia-valores h2 {
+    margin-top: 0; /* Elimina el margen superior del encabezado */
+    color: #333; /* Color del texto del encabezado */
+}
+
+.barberia-valores p {
+    margin: 10px 0 0; /* Margen superior pequeño para el párrafo */
+    color: #666; /* Color del texto del párrafo */
+}
