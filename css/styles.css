@@ -263,67 +263,123 @@ span {
 }
 
 .small-circle-image {
-    width: 100px; /* Ajusta el tamaño según tus necesidades */
-    height: 100px; /* Asegúrate de que el ancho y el alto sean iguales para que la imagen sea circular */
-    border-radius: 50%; /* Hace que la imagen sea circular */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para dar un efecto de profundidad */
-    border: 2px solid #000; /* Añade un borde para resaltar la imagen */
-    object-fit: cover; /* Asegura que la imagen se recorte correctamente si no es cuadrada */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000;
+    object-fit: cover;
 }
 
 .about-us {
-    padding: 20px; /* Espacio interior alrededor del contenido */
-    background-color: #f9f9f9; /* Fondo claro para destacar el texto */
-    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-    margin: 20px 0; /* Espacio exterior alrededor del contenedor */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto de animación */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-us:hover {
-    transform: translateY(-10px); /* Efecto de desplazamiento hacia arriba */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .about-us h1 {
-    color: #333; /* Color del texto del encabezado */
-    text-align: center; /* Centrar el texto del encabezado */
-    margin-bottom: 20px; /* Espacio debajo del encabezado */
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .about-us p {
-    color: #666; /* Color del texto del párrafo */
-    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
-    text-align: justify; /* Justificar el texto para un borde recto a ambos lados */
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 .barberia-valores {
-    list-style-type: none; /* Elimina los puntos de la lista */
+    list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
 .barberia-valores li {
-    margin: 20px 0; /* Espacio entre cada valor */
+    margin: 20px 0;
     padding: 10px;
-    border: 1px solid #ddd; /* Borde ligero para separar cada valor */
-    border-radius: 10px; /* Bordes redondeados para un diseño más suave */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-    background-color: #f9f9f9; /* Fondo claro para resaltar el texto */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición para el efecto de animación */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .barberia-valores li:hover {
-    transform: translateY(-10px); /* Efecto de desplazamiento hacia arriba */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .barberia-valores h2 {
-    margin-top: 0; /* Elimina el margen superior del encabezado */
-    color: #333; /* Color del texto del encabezado */
+    margin-top: 0;
+    color: #333;
 }
 
 .barberia-valores p {
-    margin: 10px 0 0; /* Margen superior pequeño para el párrafo */
-    color: #666; /* Color del texto del párrafo */
+    margin: 10px 0 0;
+    color: #666;
+}
+
+.process-step {
+    text-align: center;
+}
+
+.process-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    object-fit: cover;
+}
+
+.arrow-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 2rem;
+    margin: 0 20px;
+}
+
+.process-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.process-container p {
+    color: #666;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.process-container img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px dashed #333;
+    padding: 5px;
+}
+
+.process-container img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
